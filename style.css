@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(239, 237, 237);
+}
+.header {
+    background-image:linear-gradient(to top,rgba(252, 250, 250, 0),rgba(0, 0, 0, 0.724)),url(pic/m3.jpeg);
+    width: 100%;
+    height: 42rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-header{
+    display: flex;
+    justify-content:space-around;
+    font-family: sans-serif;
+}
+.menu img{
+    width: 50px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    color: rgb(185, 186, 185);
+    align-items: center;
+}
+.menu .menu-items{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.menu .menu-items:hover{
+    color: white;
+}
+.home{
+    color:orange;
+}
+.login{
+    display: flex;
+    color: rgb(185, 186, 185);
+    align-items: center;
+}
+.login .login-items{
+    margin-top: 1rem;
+    margin-right: 1.40rem;
+    transition: all .4s;
+    cursor: pointer;
+}
+.login .login-items:hover{
+    color: white;
+}
+.sign-in{
+    border: 1px solid white;
+    padding:6px 20px;
+    border-radius: 17px;
+}
+/* header-menu end */
+.intry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.part1{
+    color:white;
+    font-size: 40px;
+}
+.part2{
+    color:orange;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+.part3 button{
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    border: none;
+    background-color: orange;
+    border-radius: 29px;
+    padding: 15px 45px;
+    transition: all .4s;
+}
+.part3 button:hover{
+    color: orange;
+    background-color: white;
+}
+/* intry end */
+/* .box{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows:200px;
+    justify-content: space-around;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+} */
+.box{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.box img{
+    padding-top: 15px;
+}
+.box-items{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.867);
+    border-radius: 20px;
+}
+.first-p{
+    font-weight: bolder;
+    padding: 20px 0;
+}
+.second-p{
+    color: rgb(98, 98, 98);
+}
+/* box end */
+/* header end */
+.explore{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size:26px;
+    color: rgb(40, 39, 39);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.explore img{
+    padding-bottom: 11px;
+}
+/* explore end */
+.grid-list{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(3,330px);
+    justify-content: center;
+    text-align: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+}
+.grid-list-items{
+    background-color: white;
+    border-radius: 30px;
+}
+.grid-list img{
+    width: 222px;
+    height: 180px;
+    border-radius: 40px;
+    padding: 15px 7px;
+}
+.grid-list-items .p1{
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.grid-list-items button{
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    margin-top: 14px;
+    background-color: rgb(233, 91, 35);
+    border-radius: 29px;
+    padding: 12px 35px;
+    transition: all .4s;
+}
+.grid-list-items button:hover{
+    color: orange;
+    background-color: rgb(229, 222, 222);
+}
+/* grid-list end */
+.viewall{
+    text-align: center;
+    margin-top: 30px;
+}
+.viewall button{
+    cursor: pointer;
+    color:red;
+    font-weight: bold;
+    font-size: 17px;
+    border:1px solid red;
+    margin-top: 14px;
+    border-radius: 29px;
+    padding: 12px 55px;
+    transition: all .4s;
+}
+.viewall button:hover{
+    color: whitesmoke;
+    background-color: rgb(227, 43, 43);
+}
+/* list end */
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.card{
+    width: 72%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    font-family: sans-serif;
+}
+.card-text{
+    padding: 65px 40px;
+    width: 450px;
+}
+.card-text .p1{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(52, 49, 49);
+}
+.card-text .p2{
+    padding: 30px 0;
+    color: rgb(71, 70, 70);
+}
+.card-text input[type="email"]{
+    border: none;
+    width: 370px;
+    height: 50px;
+    border-radius: 15px;
+}
+.card-text ::placeholder{
+    padding-left: 20px;
+}
+.card img{
+    width: 400px;
+    height: 295px;
+    border-radius: 40px;
+}
+/* card container end */
+.footer{
+    background-color:antiquewhite;
+    height: 380px;
+    width: 100%;
+    border-top-right-radius:80px;
+    border-top-left-radius:80px;
+    margin-top: 90px;
+    padding: 50px 200px;
+    font-family: sans-serif;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.left-item{
+    width: 35%;
+}
+.left-item .p1{
+    font-weight: bolder;
+    color: rgb(36, 35, 35);
+}
+.left-item .p2{
+    color: rgb(59, 59, 59);
+    padding: 20px 0;
+}
+.left-item .p3{
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+}
+.left-item .p4 img{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* left end */
+.right-item{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: 1fr;
+    grid-gap: 7px;
+    text-align: left;
+}
+.right-item ul{
+    list-style: none;
+}
+.right-item .footer-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.right-item .footer-items{
+    cursor: pointer;
+    padding: 5px 0;
+    transition: all 0.4s;
+}
+.right-item .footer-items:hover{
+    color: orange;
+}
+.right-item .telegram:hover{
+    color: blue;
+}
+.right-item .youtube:hover{
+    color: red;
+}
+.copy{
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align:center;
+}
